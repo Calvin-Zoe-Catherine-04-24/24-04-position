@@ -98,22 +98,9 @@
 
 .tooltip {
   position: relative;
-  display: inline-block;
+  display: inline-block;}
 
-/*.pin:hover {
-  width: 40px;
-  position: absolute;
-  transition: 3s
-  right: 580px;
-  top: 200px;
-} */
 
-.pin2 {
-  width: 60px;
-  position: absolute;
-  right: 500px;
-  top: 180px;
-}
 
 .pin3 {
   width: 70px;
