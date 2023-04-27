@@ -1,11 +1,11 @@
 #bg {
-  background: url("../0424 position ex1/img/bg.jpg");
+  background-image: url("../0424 position ex1/img/bg.jpg");
   background-size: contain;
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
-  position: relative;
   background-position: center;
+  position: relative;
 }
 
 .calvin {
@@ -76,4 +76,90 @@
   color: grey;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 1.5em;
+}
+
+.pic {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  bottom: 200px;
+  right: 491px;
+  top: 50vh;
+  left: 56vw;
+
+}
+
+.block {
+  position: absolute;
+  top: 55vh;
+  left: 57vw;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+
+/*.pin:hover {
+  width: 40px;
+  position: absolute;
+  transition: 3s
+  right: 580px;
+  top: 200px;
+} */
+
+.pin2 {
+  width: 60px;
+  position: absolute;
+  right: 500px;
+  top: 180px;
+}
+
+.pin3 {
+  width: 70px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.textcontainer {
+  width: 100%;
+  height: 500px;
+}
+
+.header {
+  text-align: Center;
+  color: rgb(245, 92, 31);
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  line-height: 0.1em;
+}
+
+.tooltip .tooltiptext {
+  position: absolute;
+  visibility: hidden;
+  width: 5vw;
+  color: grey;
+  text-align: center;
+  z-index: 99;
+  border: 3px green;
+  transition: opacity 0.3s;
+  opacity: 0;
+  width: 120px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img {
+  background-image: url("../0424 position ex1/img/RM.png");
+  background-size: cover;
+  background-position: right;
 }
